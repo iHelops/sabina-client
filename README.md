@@ -1,7 +1,7 @@
 [![мама](./images/index.png)](./images)
 
 # sabina-client
-This is the client part of the Sabina online store.
+This is the client part of the Sabina online store. <br/>
 The server part is in this repository: https://github.com/iHelops/sabina-server
 
 ## This application uses
