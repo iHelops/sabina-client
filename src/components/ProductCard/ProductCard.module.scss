@@ -1,0 +1,45 @@
+.product {
+    height: 100%;
+    position: relative;
+    padding-bottom: 20px;
+
+    .image {
+        background-color: #F8F8F8;
+        border-radius: 15px;
+        width: 100%;
+        padding-top: 100%;
+        position: relative;
+
+        img {
+            filter: brightness(0.971);
+            border-radius: 15px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .cost {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+
+        h3 {
+            color: #1677FF;
+            margin-bottom: 0;
+        }
+    }
+
+    .name {
+        margin-top: 5px;
+    }
+
+    .cart_btn {
+        position: absolute;
+        bottom: 0;
+    }
+}

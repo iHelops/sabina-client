@@ -1,0 +1,41 @@
+.cart {
+    padding-bottom: 100px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin-right: 35px;
+
+        @media (max-width: 991px) {
+            margin-right: 0;
+        }
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .order {
+        button {
+            margin-bottom: 10px;
+        }
+
+        .total_cost {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4, h3 {
+                margin: 0;
+            }
+
+            h3 {
+                color: #1677FF;
+            }
+        }
+    }
+}

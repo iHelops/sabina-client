@@ -1,0 +1,76 @@
+.categories {
+    position: absolute;
+    width: 100%;
+    top: 84px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #F1F1F1;
+    backdrop-filter: blur(27.5px);
+    padding: 30px 0;
+    overflow: hidden;
+    animation: slide .8s ease-in forwards;
+    z-index: 1000;
+
+    @keyframes slide {
+        0% {
+            max-height: 0;
+        }
+        100% {
+            max-height: 100vh;
+        }
+    }
+
+    @media (max-width: 767px) {
+        & {
+            display: none;
+        }
+    }
+
+    & > div {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .category {
+        padding: 13px;
+        width: calc(20% - 8px);
+        background: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+
+        .icon, .icon img {
+            width: 28px;
+            height: 28px;
+        }
+
+        @media (max-width: 1024px) {
+            & {
+                width: calc(25% - 8px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            & {
+                width: calc(33.33% - 7px);
+            }
+        }
+
+        @media (max-width: 580px) {
+            & {
+                width: calc(50% - 5px);
+            }
+        }
+
+        @media (max-width: 425px) {
+            & {
+                width: 100%;
+            }
+        }
+    }
+}

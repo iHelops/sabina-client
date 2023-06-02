@@ -1,0 +1,17 @@
+.menu {
+    border-right: 1px solid rgba(5, 5, 5, 0.06);
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+
+    .header {
+        width: 100%;
+        display: flex;
+        padding: 35px 0;
+        justify-content: center;
+    }
+
+    ul {
+        border-inline-end: none !important;
+    }
+}

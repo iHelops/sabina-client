@@ -1,0 +1,16 @@
+.category {
+    padding-bottom: 100px;
+
+    .top_bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 768px) {
+            & {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+}

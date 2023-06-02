@@ -1,0 +1,22 @@
+.home {
+    padding-bottom: 100px;
+
+    .banner img {
+        border-radius: 30px;
+        width: 100%;
+
+        @media (max-width: 768px) {
+            & {
+                border-radius: 15px;
+            }
+        }
+    }
+
+    .products {
+        margin-top: 80px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+}

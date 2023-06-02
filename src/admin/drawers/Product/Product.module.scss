@@ -1,0 +1,24 @@
+.attachments {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.add_att {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+    transition: all .3s;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    font-size: 20px;
+
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #1677FF;
+    }
+}

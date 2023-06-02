@@ -1,0 +1,21 @@
+.orders {
+    .action {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+
+        img {
+            width: 63px;
+            height: 63px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+    }
+}

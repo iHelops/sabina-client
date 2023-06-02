@@ -1,0 +1,52 @@
+.header {
+    padding: 20px 0;
+    margin-bottom: 50px;
+
+    .search {
+        display: flex;
+        gap: 20px;
+
+        @media (min-width: 767px) {
+            .burger {
+                display: none;
+            }
+        }
+
+        @media (max-width: 767px) {
+            & {
+                gap: 10px;
+            }
+
+            .catalog {
+                display: none;
+            }
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: right;
+        gap: 20px;
+
+        .item {
+            display: flex;
+            align-items: center;
+
+            .icon {
+                font-size: 24px;
+                color: black;
+            }
+
+            .text {
+                margin-bottom: 0;
+                margin-left: 10px;
+            }
+            
+            @media (max-width: 1120px) {
+                .text {
+                    display: none;
+                }
+            }
+        }
+    }
+}

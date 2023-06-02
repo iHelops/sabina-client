@@ -1,0 +1,57 @@
+.profile {
+    .user {
+        .avatar {
+            border-radius: 500px;
+            width: 165px;
+            height: 165px;
+            background: #F4F4F4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            color: rgba(0, 0, 0, .15);
+            margin-bottom: 20px;
+        }
+
+        .user_buttons {
+            margin-bottom: 10px;
+            width: 165px;
+        }
+    }
+
+    .chapter {
+        margin-bottom: 60px;
+
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+
+            .icon {
+                font-size: 24px;
+            }
+        }
+
+        h4 {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .user {
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .chapter {
+            text-align: center;
+
+            .title {
+                justify-content: center;
+            }
+        }
+    }
+}
